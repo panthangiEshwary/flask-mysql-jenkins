@@ -5,7 +5,7 @@ pipeline {
         stage('Clone') {
             steps {
                 echo '📥 Cloning...'
-                git branch: 'main', url: 'https://github.com/yourusername/flask-mysql-jenkins.git'
+                git branch: 'main', url: 'https://github.com/panthangiEshwary/flask-mysql-jenkins.git'
             }
         }
 
